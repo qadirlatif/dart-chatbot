@@ -1,14 +1,9 @@
-OOP : The definition of data structures or objects with individual attributes or properties is done in object oriented programming,There are four pillars of object-oriented programming, Inheritance, polymorphism, encapsulation, and abstraction make up these four pillars.
-Classes and objects : Introduction to Classes and Objects, Introduction to Class Creation and Instance Variable and Adding Methods to Classes
+OOP : The definition of data structures or objects with individual attributes or properties is done in object oriented programming,There are four pillars of object-oriented programming, Inheritance, polymorphism, encapsulation, and abstraction make up these four pillars.Class and objects : Introduction to Classes and Objects, Introduction to Class Creation and Instance Variable and Adding Methods to Classes
 A class is a blueprint for creating objects, An object is an instance of a class that has its own set of properties and methods,
-Let's create a simple class in it that represents a person, We'll give the class a name, age, and gender property, We'll also give it a method that prints out the person's information.
-abstraction : abstraction is one of three central principles (along with encapsulation and inheritance), Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency.
-encapsulation : Encapsulation is a way to restrict the direct access to some components of an object, so users cannot access state values for all of the variables of a particular object, Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object.
-Inheritance : inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation, Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes,
+Let's create a simple class in it that represents a person, We'll give the class a name, age, and gender property, We'll also give it a method that prints out the person's information.abstraction : abstraction is one of three central principles (along with encapsulation and inheritance), Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency.encapsulation : Encapsulation is a way to restrict the direct access to some components of an object, so users cannot access state values for all of the variables of a particular object, Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object.Inheritance : inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation, Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes,
 we can create a subclass by using the extends keyword, The subclass inherits all the properties and methods of the superclass, The subclass can also override the properties and methods of the superclass,
 Sometimes you may want to override a method in a subclass to provide a different implementation, To do this in this, you can simply define a method with the same name as the superclass method,
-When you create a subclass that inherits from a superclass, the subclass also inherits the superclass constructor, You can use the super keyword to call the superclass constructor from the subclass constructor.
-Loops : there are many types of loops like,
+When you create a subclass that inherits from a superclass, the subclass also inherits the superclass constructor, You can use the super keyword to call the superclass constructor from the subclass constructor.Polymorphism: The ability of objects to take on multiple forms or behaviors based on the context in which they are used.Loops : there are many types of loops like,
 1)for loops
 example: 
 for (int i = 0; i < 5; i++) {
@@ -26,30 +21,23 @@ example:
 int i=0;
 do{
 //code
-}while(cond);.
-Dart : Dart is a programming language developed by Google, It is a general-purpose programming language that is used to build web, server, and mobile applications, Dart is an object-oriented, class-based, garbage-collected language with C-style syntax, Dart can compile to either native code or JavaScript, It supports interfaces, mixins, abstract classes, reified generics, and type inference.
-Data Types : It has several built-in types, including:
-
+}while(cond);.Dart : Dart is a programming language developed by Google, It is a general-purpose programming language that is used to build web, server, and mobile applications, Dart is an object-oriented, class-based, garbage-collected language with C-style syntax, Dart can compile to either native code or JavaScript, It supports interfaces, mixins, abstract classes, reified generics, and type inference.Data Types : It has several built-in types, including:
 int : used to represent integer values, such as 1, 2, 3, etc
 double : used to represent floating-point values
 bool : used to represent boolean values, which can be either true or false
 String : used to represent text or string values, such as "Hello, world!"
 List : used to represent an ordered collection of objects
-Map : used to represent a collection of key-value pairs.
-
-Declare Variables : 
-var myNumber: int = 5.
-Operators :  Operators - Arithmetic:
-It supports all the basic arithmetic operators, including +, -, *, /, and % (remainder or modulo), For example:
-
+Map : used to represent a collection of key-value pairs.Declare Variables : 
+var myNumber: int = 5.Operators :  Operators - Arithmetic:
+It supports all the basic arithmetic operators, including +, -, *, /, and % (remainder or modulo), For example
 int a = 5;
 int b = 3;
 int c = a + b; 
 int d = a * b; 
 double e = a / b; 
-int f = a % b;.
-Relational Operators : Equality and Relational Operators:
-It also has operators for comparing values, such as == (equals), != (not equals), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to) For example:
+int f = a % b;
+Equality and Relational Operators
+It also has operators for comparing values, such as == (equals), != (not equals), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to) For example
 
 int a = 5;
 int b = 3;
@@ -58,15 +46,12 @@ bool isNotEqual = a != b; // true
 bool isGreater = a > b; // true
 bool isLess = a < b; // false
 bool isGreaterOrEqual = a >= b; // true
-bool isLessOrEqual = a <= b; // false .
-Logical Operators :
-It supports the following logical operators:
-
+bool isLessOrEqual = a <= b; // false 
+Logical Operators 
+It supports the following logical operators,
 && (and)
 || (or)
-! (not).
-Switch Cases : Switch cases are used to execute a block of code based on the value of a variable, you can use the switch statement to execute a block of code based on the value of a variable, For example:
-
+! (not).Switch Cases : Switch cases are used to execute a block of code based on the value of a variable, you can use the switch statement to execute a block of code based on the value of a variable, For example:
 int number = 5;
 switch (number) {
   case 1:
@@ -86,8 +71,7 @@ switch (number) {
     break;
   default:
     print("Number not found");
-}.
-Functions : Functions are used to execute a block of code when they are called, you can use the function keyword to declare a function, For example:
+}.Functions Methods : Functions or Methods are used to execute a block of code when they are called, you can use the function keyword to declare a function, For example:
 
 void main() {
   printHello();
@@ -133,13 +117,11 @@ void main() {
 
 int add(int a, [int b = 0]) {
   return a + b;
-}.
-if statements : If statements are used to execute a block of code if a condition is true, you can use the if statement to execute a block of code if a condition is true, For example:
+}.if statements : If statements are used to execute a block of code if a condition is true, you can use the if statement to execute a block of code if a condition is true, For example:
 
 if (5 > 3) {
   print("5 is greater than 3");
-}.
-Constructors : Introduction to Constructors and Named and Sugar Syntactic Constructors
+}.Constructors Constructor : Introduction to Constructors and Named and Sugar Syntactic Constructors
 Constructors  are special methods that are used to create and initialize it'sobjects of a class, Constructors can be used to set the initial values of the properties of an object when it is created, In this section, we'll look at different types of constructors,
 There Are 4 Types of Constructors: 
 1)Default
@@ -149,7 +131,15 @@ There Are 4 Types of Constructors:
 Default Constructor The default constructor in it is used to create an object of a class without passing any arguments, you do not explicitly define a constructor for a class, this language provides a default constructor,
 Parameterized Constructor A parameterized constructor is used to create an object of a class by passing arguments to the constructor,
 Named Constructor A named constructor is used to create an object of a class using a custom name, Named constructors are useful when you want to create objects in different ways,
-Sugar Syntactic Constructor Sugar Syntactic Constructors is a shorthand way of writing constructors that can be used to create an object of a class in a more concise way.
-Setters and Getters : 
-1)Getters and getter is a method that is used to retrieve the value of a property, you can create a getter by defining a method with the get keyword followed by the name of the property you want to get.
-2)Setters and setter is a method that is used to set the value of a property, you can create a setter by defining a method with the set keyword followed by the name of the property you want to set.
+Sugar Syntactic Constructor Sugar Syntactic Constructors is a shorthand way of writing constructors that can be used to create an object of a class in a more concise way.Setters and Getters : 
+1)Getters and getter is a method that is used to retrieve the value of a property, you can create a getter by defining a method with the get keyword followed by the name of the property you want to get,
+2)Setters and setter is a method that is used to set the value of a property, you can create a setter by defining a method with the set keyword followed by the name of the property you want to set.create class : 
+class A{
+  // contructors
+  //properties
+  //behaviours
+
+}.Flutter : Flutter is an open-source UI toolkit developed by Google for creating high-quality natively compiled applications for mobile, web, and desktop platforms using a single codebase, 
+It uses the Dart programming language and provides pre-built widgets and tools to enable developers to create beautiful and responsive user interfaces quickly, Flutter's architecture is based on a reactive programming model, and it supports hot reloading, making it easy to develop, test, and deploy applications quickly,
+It has gained popularity in recent years due to its cross-platform capabilities, fast development cycles, and ability to create high-quality applications.ChatBot Made By : Code Busters.Interfaces : A contract that specifies a set of methods and properties that a class must implement to satisfy the interface.Method Overloading and Overriding : Method Overloading refers to defining multiple methods with the same name but different parameters, while Method Overriding refers to defining a method in a subclass that overrides the implementation of a method in its superclass.Static Members : Members (methods or properties) that belong to the class rather than to a specific object instance.Access Modifiers : Keywords used to restrict the visibility and accessibility of a class member.Abstract Classes and Methods : Abstract classes are classes that cannot be instantiated, and Abstract methods are methods that must be implemented by any non-abstract subclass.Exception Handling : A mechanism used to handle runtime errors and prevent an application from crashing.Namespaces : A mechanism used to group related classes, interfaces, and other types in a logical manner to avoid naming conflicts.Generics : A mechanism used to create classes, interfaces, and methods that can work with any data type, providing type safety and code reuse.Design Patterns : Common reusable solutions to common programming problems that help improve code quality, maintainability, and scalability.Polymorphism : Polymorphism is a feature of object-oriented programming languages that allows a specific routine to use variables of different types at different times. Polymorphism in programming gives a program the ability to redefine methods for derived classes.
+
